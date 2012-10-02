@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# Copyright (c) 2009 Entertainer Developers - See COPYING - GPLv2
+'''Manager executable'''
+
+import gtk
+
+from entertainerlib.client.translation_setup import TranslationSetup
+TranslationSetup()
+
+from entertainerlib.dialog import ManagerDialog
+
+
+ManagerDialog(True)
+gtk.main()

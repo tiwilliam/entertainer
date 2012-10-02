@@ -1,0 +1,17 @@
+python-cairo
+python-cddb
+python-clutter
+python-cluttergst
+python-cluttergtk
+python-ctypes
+python-eyed3
+python-gobject
+python-gst0.10
+python-gtk2
+python-imaging
+python-imdbpy
+python-pysqlite2
+python-pyvorbis
+python-storm
+python-twisted
+python-xdg

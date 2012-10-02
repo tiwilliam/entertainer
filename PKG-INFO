@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: entertainer
+Version: 0.5.1
+Summary: Entertainer Media Center
+Home-page: http://www.launchpad.net/entertainer
+Author: Entertainer Developers
+Author-email: entertainer-dev@lists.ironlionsoftware.com
+License: GPL
+Description: 
+                Entertainer aims to be a simple and easy-to-use media center solution
+                for GNOME and Xfce desktop environments. Entertainer is written
+                completely in Python using object-oriented programming paradigm.
+                It uses the gstreamer multimedia framework for multimedia playback.
+                The user Interface is implemented with Clutter UI-library, which
+                creates sleek OpenGL animated user interfaces. Entertainer also uses
+                other great projects like SQLite and iNotify for caching media
+                libraries.
+Platform: UNKNOWN

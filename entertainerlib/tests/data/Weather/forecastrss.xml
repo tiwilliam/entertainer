@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<channel>
+
+<title>Yahoo! Weather - Derby, UK</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Derby__UK/*http://weather.yahoo.com/forecast/UKXX0040_f.html</link>
+<description>Yahoo! Weather for Derby, UK</description>
+<language>en-us</language>
+<lastBuildDate>Sun, 09 Mar 2008 8:20 pm GMT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Derby" region=""   country="UK"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="33"   direction="200"   speed="14" />
+<yweather:atmosphere humidity="76"  visibility="6.21"  pressure="29.26"  rising="0" />
+<yweather:astronomy sunrise="6:34 am"   sunset="6:00 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/us.yimg.com/i/us/nws/th/main_142b.gif</url>
+</image>
+<item>
+<title>Conditions for Derby, UK at 8:20 pm GMT</title>
+<geo:lat>52.93</geo:lat>
+<geo:long>-1.5</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Derby__UK/*http://weather.yahoo.com/forecast/UKXX0040_f.html</link>
+<pubDate>Sun, 09 Mar 2008 8:20 pm GMT</pubDate>
+<yweather:condition  text="Fair"  code="33"  temp="41"  date="Sun, 09 Mar 2008 8:20 pm GMT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/us.yimg.com/i/us/we/52/33.gif"/><br />
+<b>Current Conditions:</b><br />
+Fair, 41 F<BR />
+<BR /><b>Forecast:</b><BR />
+Sun - Rain/Wind Late. High: 46 Low: 37<br />
+Mon - Rain/Wind. High: 44 Low: 40<br />
+Tue - Rain/Wind. High: 48 Low: 40<br />
+Wed - Partly Cloudy/Wind. High: 47 Low: 39<br />
+Thu - Partly Cloudy. High: 50 Low: 39<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Derby__UK/*http://weather.yahoo.com/forecast/UKXX0040_f.html">Full Forecast at Yahoo! Weather</a><BR/>
+(provided by The Weather Channel)<br/>
+]]></description>
+<yweather:forecast day="Sun" date="9 Mar 2008" low="37" high="46" text="Rain/Wind Late" code="12" />
+<yweather:forecast day="Mon" date="10 Mar 2008" low="40" high="44" text="Rain/Wind" code="12" />
+<yweather:forecast day="Tue" date="11 Mar 2008" low="40" high="48" text="Rain/Wind" code="12" />
+<yweather:forecast day="Wed" date="12 Mar 2008" low="39" high="47" text="Partly Cloudy/Wind" code="24" />
+<yweather:forecast day="Thu" date="13 Mar 2008" low="39" high="50" text="Partly Cloudy" code="30" />
+<guid isPermaLink="false">UKXX0040_2008_03_09_20_20_GMT</guid>
+</item>
+</channel>
+</rss><!-- api4.weather.re4.yahoo.com compressed/chunked Sun Mar  9 13:38:13 PDT 2008 -->

@@ -1,0 +1,6 @@
+To install Entertainer, run:
+
+python setup.py install
+
+For information on how to contribute, read docs/HACKING.
+

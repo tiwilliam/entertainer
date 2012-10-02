@@ -1,0 +1,578 @@
+# Portuguese translation for entertainer
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the entertainer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: entertainer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-04-03 19:11-0400\n"
+"PO-Revision-Date: 2008-12-01 20:30+0000\n"
+"Last-Translator: Marco Rodrigues <Unknown>\n"
+"Language-Team: Portuguese <pt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-04-11 17:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../entertainerlib/dialog.py:120 ../entertainerlib/dialog.py:524
+msgid "Location"
+msgstr ""
+
+#: ../entertainerlib/dialog.py:134 ../entertainerlib/dialog.py:377
+msgid "Entertainer backend is not running. Cache cannot be rebuilt."
+msgstr ""
+
+#: ../entertainerlib/dialog.py:163
+msgid "Select folder"
+msgstr ""
+
+#: ../entertainerlib/dialog.py:199
+msgid "Edit URL"
+msgstr "Editar URL"
+
+#: ../entertainerlib/dialog.py:254
+msgid "Add location"
+msgstr "Adicionar Localização"
+
+#: ../entertainerlib/dialog.py:315
+msgid "Location Not Found!"
+msgstr "Localização não encontrada!"
+
+#: ../entertainerlib/dialog.py:388
+msgid "Select theme package file"
+msgstr ""
+
+#: ../entertainerlib/dialog.py:392
+msgid "Theme package (tar.gz)"
+msgstr "Pacote do tema (tar.gz)"
+
+#: ../entertainerlib/dialog.py:417
+msgid "Invalid theme file!"
+msgstr "O ficheiro do tema é inválido!"
+
+#: ../entertainerlib/dialog.py:459
+#, python-format
+msgid ""
+"Are you sure you want to delete\n"
+"theme: %(name)s"
+msgstr "Tem a certeza que pretende eliminar o tema: %(name)s"
+
+#: ../entertainerlib/dialog.py:480 ../entertainerlib/uis/manager.ui.h:25
+msgid "No effect"
+msgstr ""
+
+#: ../entertainerlib/dialog.py:482 ../entertainerlib/uis/manager.ui.h:14
+msgid "Crossfade"
+msgstr ""
+
+#: ../entertainerlib/dialog.py:484 ../entertainerlib/uis/manager.ui.h:35
+msgid "Zoom and fade"
+msgstr ""
+
+#: ../entertainerlib/dialog.py:486 ../entertainerlib/uis/manager.ui.h:29
+msgid "Slide"
+msgstr ""
+
+#: ../entertainerlib/dialog.py:499
+msgid "Folders"
+msgstr ""
+
+#: ../entertainerlib/weather.py:58
+msgid "Couldn't get weather reports from the internet!"
+msgstr ""
+
+#: ../entertainerlib/weather.py:84
+msgid "Location not found or network problem"
+msgstr "Localização não encontrada ou problema de rede"
+
+#: ../entertainerlib/weather.py:137 ../entertainerlib/weather.py:138
+#: ../entertainerlib/weather.py:139 ../entertainerlib/weather.py:140
+msgid "NA"
+msgstr ""
+
+#: ../entertainerlib/weather.py:150
+msgid "No weather location defined!"
+msgstr "Sem localização para o Tempo definida."
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:1
+#: ../entertainerlib/uis/log_dialog.ui.h:6
+msgid "Log viewer"
+msgstr "Visualizador de registo"
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:2
+msgid "Manager"
+msgstr ""
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:3
+msgid "Open log viewer dialog"
+msgstr ""
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:4
+msgid "Open manager dialog"
+msgstr ""
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:5
+msgid "Open media center GUI"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:1
+msgid "<b>Author: </b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:2
+msgid "<b>Comment: </b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:3
+msgid "<b>Copyright: </b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:4
+msgid "<b>License: </b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:5
+msgid "<b>Media Library</b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:6
+msgid "<b>Name: </b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:7
+msgid "<b>Search for location</b>"
+msgstr "<b>Pesquisar por localização</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:8
+msgid "<b>Search result</b>"
+msgstr "<b>Resultado da pesquisa</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:9
+msgid "<b>Theme Information</b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:10
+msgid "<b>Themes</b>"
+msgstr "<b>Temas</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:11
+msgid "<b>Weather locations</b>"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:12
+msgid "Below is a list of accessible themes."
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:13
+msgid "City:"
+msgstr "Cidade:"
+
+#: ../entertainerlib/uis/manager.ui.h:15
+msgid "Display system tray icon in notification area"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:16
+msgid "Display weather option in main menu"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:17
+msgid "Download album cover art"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:18
+msgid "Download movie and TV-series metadata"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:19
+msgid "Download song lyrics"
+msgstr "Descarregar letras da música"
+
+#: ../entertainerlib/uis/manager.ui.h:20
+msgid "Entertainer Manager"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:21
+msgid "Entertainer will catalog the media in the folders below."
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:22
+msgid "General"
+msgstr "Geral"
+
+#: ../entertainerlib/uis/manager.ui.h:23
+msgid "Get weather conditions from the locations listed below."
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:24
+msgid "Media"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:26
+msgid "Rebuild media cache"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:27
+msgid "Screen change effect: "
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:28
+msgid "Show user interface effects"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:30
+msgid "Slideshow step (in seconds)"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:31
+msgid "Start in fullscreen"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:32
+msgid "Start server automatically"
+msgstr "Iniciar automaticamente o servidor"
+
+#: ../entertainerlib/uis/manager.ui.h:33
+msgid "User Interface"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:34
+#: ../entertainerlib/gui/screens/weather.py:19
+#: ../entertainerlib/gui/screens/main.py:71
+msgid "Weather"
+msgstr "Tempo"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:1
+msgid "<b>Display items</b>"
+msgstr ""
+
+#: ../entertainerlib/uis/log_dialog.ui.h:2
+msgid "Critical"
+msgstr ""
+
+#: ../entertainerlib/uis/log_dialog.ui.h:3
+msgid "Debug"
+msgstr ""
+
+#: ../entertainerlib/uis/log_dialog.ui.h:4
+msgid "Error"
+msgstr ""
+
+#: ../entertainerlib/uis/log_dialog.ui.h:5
+#: ../entertainerlib/gui/screens/photo.py:40
+msgid "Information"
+msgstr "Informação"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:7
+msgid "Warning"
+msgstr ""
+
+#: ../entertainerlib/uis/log_dialog.ui.h:8
+msgid "gtk-close"
+msgstr "gtk-close"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:9
+msgid "gtk-refresh"
+msgstr ""
+
+#: ../entertainerlib/client/medialibrary/music.py:140
+msgid "Various"
+msgstr "Vários"
+
+#: ../entertainerlib/client/medialibrary/music.py:265
+msgid "Unknown artist"
+msgstr "Artista desconhecido"
+
+#: ../entertainerlib/client/medialibrary/music.py:267
+msgid "Unknown title"
+msgstr "Título desconhecido"
+
+#: ../entertainerlib/client/medialibrary/music.py:292
+#, python-format
+msgid "Unknown track %(num)s."
+msgstr "Faixa desconhecida %(num)s."
+
+#: ../entertainerlib/gui/system_tray_icon.py:30
+msgid "Entertainer Server"
+msgstr "Servidor de Entretenimento"
+
+#: ../entertainerlib/gui/user_interface.py:201
+msgid "Are you sure you want to exit Entertainer?"
+msgstr ""
+
+#: ../entertainerlib/gui/user_interface.py:202
+msgid "Yes"
+msgstr "Sim"
+
+#: ../entertainerlib/gui/user_interface.py:202
+msgid "No"
+msgstr "Não"
+
+#: ../entertainerlib/gui/screens/video.py:19
+#: ../entertainerlib/gui/screens/main.py:66
+msgid "Videos"
+msgstr "Vídeos"
+
+#: ../entertainerlib/gui/screens/tv_episodes.py:50
+#, python-format
+msgid "%(num)d. %(title)s"
+msgstr ""
+
+#: ../entertainerlib/gui/screens/movie.py:27
+msgid "Movie"
+msgstr "Filme"
+
+#: ../entertainerlib/gui/screens/movie.py:63
+#, python-format
+msgid "Released in %(year)s"
+msgstr "Lançado em %(year)s"
+
+#: ../entertainerlib/gui/screens/movie.py:72
+#: ../entertainerlib/gui/screens/movie.py:122
+#: ../entertainerlib/gui/screens/movie.py:135
+#: ../entertainerlib/gui/screens/movie.py:148
+msgid "Unknown"
+msgstr ""
+
+#: ../entertainerlib/gui/screens/movie.py:77
+#, python-format
+msgid "%(runtime)s min, %(genre)s"
+msgstr "%(runtime)s min, %(genre)s"
+
+#: ../entertainerlib/gui/screens/movie.py:118
+msgid "Starring"
+msgstr ""
+
+#: ../entertainerlib/gui/screens/movie.py:131
+msgid "Directed by"
+msgstr "Dirigido por"
+
+#: ../entertainerlib/gui/screens/movie.py:144
+msgid "Written by"
+msgstr "Escrito por"
+
+#: ../entertainerlib/gui/screens/movie.py:161
+msgid "Watch"
+msgstr ""
+
+#: ../entertainerlib/gui/screens/tv_series.py:49
+#, python-format
+msgid "Season %(num)s"
+msgstr "Temprada %(num)s"
+
+#: ../entertainerlib/gui/screens/weather.py:48
+#, python-format
+msgid ""
+"High: %(high)s   Low: %(low)s\n"
+"Condition: %(cond)s"
+msgstr ""
+"Máxima: %(high)s Mínima: %(low)s\n"
+"Estado: %(cond)s"
+
+#: ../entertainerlib/gui/screens/main.py:65
+msgid "Play CD"
+msgstr "Tocar CD"
+
+#: ../entertainerlib/gui/screens/main.py:67
+#: ../entertainerlib/gui/screens/music.py:25
+msgid "Music"
+msgstr "Música"
+
+#: ../entertainerlib/gui/screens/main.py:68
+#: ../entertainerlib/gui/screens/photo_albums.py:27
+msgid "Photographs"
+msgstr "Fotografias"
+
+#: ../entertainerlib/gui/screens/main.py:74
+#: ../entertainerlib/gui/screens/main.py:175
+msgid "Playing now..."
+msgstr "Tocando..."
+
+#: ../entertainerlib/gui/screens/main.py:140
+#, python-format
+msgid "Now Playing: %(title)s (%(pos)s/%(length)s)"
+msgstr ""
+
+#: ../entertainerlib/gui/screens/question.py:23
+msgid "Question"
+msgstr ""
+
+#: ../entertainerlib/gui/screens/music.py:51
+msgid "No music available!"
+msgstr ""
+
+#: ../entertainerlib/gui/screens/music.py:56
+msgid ""
+"There are no indexed artists in the Entertainer media library. To add music, "
+"start the Content management tool and open the 'Music' tab. Now click on the "
+"'Add' button and select some folders which contain music files."
+msgstr ""
+
+#: ../entertainerlib/gui/screens/album.py:77
+#: ../entertainerlib/gui/screens/disc.py:168
+#, python-format
+msgid "%(total)s tracks, %(time)s minutes"
+msgstr "%(total)s faixas, %(time)s minutos"
+
+#: ../entertainerlib/gui/screens/photo_albums.py:69
+msgid "No photographs available!"
+msgstr "Nenhuma fotografia disponível!"
+
+#: ../entertainerlib/gui/screens/photo_albums.py:74
+msgid ""
+"There are no indexed photographs in the Entertainer media library. To add "
+"photographs, start the Content management tool and open the 'Images' tab. "
+"Now click on the 'Add' button and select some folders which contain image "
+"files."
+msgstr ""
+
+#: ../entertainerlib/gui/screens/disc.py:42
+msgid "Audio Disc"
+msgstr "Disco Áudio"
+
+#: ../entertainerlib/gui/screens/disc.py:89
+msgid "No audio disc in drive"
+msgstr "Sem disco na drive"
+
+#: ../entertainerlib/gui/tabs/video_clips_tab.py:23
+msgid "Video clips"
+msgstr "Clips de vídeo"
+
+#: ../entertainerlib/gui/tabs/video_clips_tab.py:66
+msgid ""
+"There are no indexed Video Clips in the Entertainer media library. Please "
+"add some folders containing video clips to the Library using the "
+"configuration tool."
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/video_clips_tab.py:69
+msgid "No video clips available!"
+msgstr "Nenhum clip de vídeo disponível!"
+
+#: ../entertainerlib/gui/tabs/tab.py:110
+msgid "Empty tab"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/tab.py:111
+msgid "This tab doesn't contain any elements."
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/series_tab.py:21
+msgid "TV-Series"
+msgstr "Séries de TV"
+
+#: ../entertainerlib/gui/tabs/series_tab.py:64
+msgid ""
+"There are no indexed TV-series in Entertainer media library. To add TV-"
+"series, click on 'content' button on toolbar and open 'videos' tab. Now "
+"click on 'add' button and select some folders which contains video files."
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/series_tab.py:68
+msgid "No TV-series available!"
+msgstr "Nenhuma série de TV disponível!!"
+
+#: ../entertainerlib/gui/tabs/series_tab.py:109
+#, python-format
+msgid ""
+"%(season)d Seasons\n"
+"%(episode)d Episodes"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:14
+msgid "Currently playing"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:23
+#, python-format
+msgid "From %(number)d. %(title)s"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:33
+#, python-format
+msgid "From %(title)s"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:35
+#: ../entertainerlib/gui/tabs/playing_tab.py:67
+#, python-format
+msgid "From %(title)s, %(year)s"
+msgstr "De %(title)s, %(year)s"
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:44
+#: ../entertainerlib/gui/tabs/playing_tab.py:72
+#, python-format
+msgid "By %(artist)s"
+msgstr "De %(artist)s"
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:70
+#, python-format
+msgid "From %(album)s"
+msgstr "De %(album)s"
+
+#: ../entertainerlib/gui/tabs/albums_tab.py:17
+msgid "Albums"
+msgstr "Álbuns"
+
+#: ../entertainerlib/gui/tabs/albums_tab.py:88
+#, python-format
+msgid "%(total)s tracks"
+msgstr "%(total)s faixas"
+
+#: ../entertainerlib/gui/tabs/artists_tab.py:17
+msgid "Artists"
+msgstr "Artistas"
+
+#: ../entertainerlib/gui/tabs/artists_tab.py:73
+#, python-format
+msgid "%(albums)d albums"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/artists_tab.py:75
+#, python-format
+msgid "%(tracks)d tracks"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/lyrics_tab.py:17
+msgid "Lyrics"
+msgstr "Letras"
+
+#: ../entertainerlib/gui/tabs/lyrics_tab.py:52
+msgid "No lyrics found for this track"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/tracks_tab.py:16
+msgid "Tracks"
+msgstr "Faixas"
+
+#: ../entertainerlib/gui/tabs/tracks_tab.py:74
+#, python-format
+msgid "Track %(track)d from %(album)s"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:21
+msgid "Movies"
+msgstr "Filmes"
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:65
+msgid ""
+"There are no indexed movies in Entertainer media library.  To add movies, "
+"click on 'content' button on toolbar and open 'videos' tab. Now click on "
+"'add' button and select some folders which contains movie files."
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:69
+msgid "No movies available!"
+msgstr "Nenhum filme disponível!"
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:123
+#, python-format
+msgid "%(title)s (%(year)s)"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:125
+#, python-format
+msgid "%(min)d min, (%(genre)s)"
+msgstr ""

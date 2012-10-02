@@ -1,0 +1,595 @@
+# Finnish translation for entertainer
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the entertainer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: entertainer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-04-03 19:11-0400\n"
+"PO-Revision-Date: 2010-04-09 13:30+0000\n"
+"Last-Translator: Jiri Grönroos <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-04-11 17:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../entertainerlib/dialog.py:120 ../entertainerlib/dialog.py:524
+msgid "Location"
+msgstr "Sijainti"
+
+#: ../entertainerlib/dialog.py:134 ../entertainerlib/dialog.py:377
+msgid "Entertainer backend is not running. Cache cannot be rebuilt."
+msgstr ""
+"Entertainer-taustaohjelma ei ole käynnissä. Välimuistia ei voida rakentaa "
+"uudelleen."
+
+#: ../entertainerlib/dialog.py:163
+msgid "Select folder"
+msgstr "Valitse kansio"
+
+#: ../entertainerlib/dialog.py:199
+msgid "Edit URL"
+msgstr "Muokkaa URL-osoitetta"
+
+#: ../entertainerlib/dialog.py:254
+msgid "Add location"
+msgstr "Lisää sijainti"
+
+#: ../entertainerlib/dialog.py:315
+msgid "Location Not Found!"
+msgstr "Sijaintia ei löytynyt!"
+
+#: ../entertainerlib/dialog.py:388
+msgid "Select theme package file"
+msgstr "Valitse teemapakettitiedosto"
+
+#: ../entertainerlib/dialog.py:392
+msgid "Theme package (tar.gz)"
+msgstr "Teemapaketti (tar.gz)"
+
+#: ../entertainerlib/dialog.py:417
+msgid "Invalid theme file!"
+msgstr "Epäkelpo teematiedosto!"
+
+#: ../entertainerlib/dialog.py:459
+#, python-format
+msgid ""
+"Are you sure you want to delete\n"
+"theme: %(name)s"
+msgstr ""
+"Poistetaanko\n"
+"teema: %(name)s"
+
+#: ../entertainerlib/dialog.py:480 ../entertainerlib/uis/manager.ui.h:25
+msgid "No effect"
+msgstr "Ei tehostetta"
+
+#: ../entertainerlib/dialog.py:482 ../entertainerlib/uis/manager.ui.h:14
+msgid "Crossfade"
+msgstr "Ristihäivytys"
+
+#: ../entertainerlib/dialog.py:484 ../entertainerlib/uis/manager.ui.h:35
+msgid "Zoom and fade"
+msgstr "Zoomaa ja häivytä"
+
+#: ../entertainerlib/dialog.py:486 ../entertainerlib/uis/manager.ui.h:29
+msgid "Slide"
+msgstr "Liutus"
+
+#: ../entertainerlib/dialog.py:499
+msgid "Folders"
+msgstr "Kansiot"
+
+#: ../entertainerlib/weather.py:58
+msgid "Couldn't get weather reports from the internet!"
+msgstr "Säätietojen nouto internetistä epäonnistui!"
+
+#: ../entertainerlib/weather.py:84
+msgid "Location not found or network problem"
+msgstr "Sijaintia ei löytynyt tai verkkovirhe"
+
+#: ../entertainerlib/weather.py:137 ../entertainerlib/weather.py:138
+#: ../entertainerlib/weather.py:139 ../entertainerlib/weather.py:140
+msgid "NA"
+msgstr ""
+
+#: ../entertainerlib/weather.py:150
+msgid "No weather location defined!"
+msgstr "Sään sijaintia ei ole määritelty!"
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:1
+#: ../entertainerlib/uis/log_dialog.ui.h:6
+msgid "Log viewer"
+msgstr "Lokien katselin"
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:2
+msgid "Manager"
+msgstr ""
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:3
+msgid "Open log viewer dialog"
+msgstr "Avaa lokien katselin"
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:4
+msgid "Open manager dialog"
+msgstr ""
+
+#: ../entertainerlib/uis/system_tray_icon_menu.ui.h:5
+msgid "Open media center GUI"
+msgstr "Avaa mediakeskuksen graafinen käyttöliittymä"
+
+#: ../entertainerlib/uis/manager.ui.h:1
+msgid "<b>Author: </b>"
+msgstr "<b>Tekijä: </b>"
+
+#: ../entertainerlib/uis/manager.ui.h:2
+msgid "<b>Comment: </b>"
+msgstr "<b>Kommentti: </b>"
+
+#: ../entertainerlib/uis/manager.ui.h:3
+msgid "<b>Copyright: </b>"
+msgstr "<b>Tekijänoikeus: </b>"
+
+#: ../entertainerlib/uis/manager.ui.h:4
+msgid "<b>License: </b>"
+msgstr "<b>Lisenssi: </b>"
+
+#: ../entertainerlib/uis/manager.ui.h:5
+msgid "<b>Media Library</b>"
+msgstr "<b>Mediakirjasto</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:6
+msgid "<b>Name: </b>"
+msgstr "<b>Nimi: </b>"
+
+#: ../entertainerlib/uis/manager.ui.h:7
+msgid "<b>Search for location</b>"
+msgstr "<b>Hae sijaintia</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:8
+msgid "<b>Search result</b>"
+msgstr "<b>Hakutulokset</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:9
+msgid "<b>Theme Information</b>"
+msgstr "<b>Teeman tiedot</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:10
+msgid "<b>Themes</b>"
+msgstr "<b>Teemat</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:11
+msgid "<b>Weather locations</b>"
+msgstr "<b>Sään sijainnit</b>"
+
+#: ../entertainerlib/uis/manager.ui.h:12
+msgid "Below is a list of accessible themes."
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:13
+msgid "City:"
+msgstr "Kaupunki:"
+
+#: ../entertainerlib/uis/manager.ui.h:15
+msgid "Display system tray icon in notification area"
+msgstr "Näytä ilmoitusalueen kuvake"
+
+#: ../entertainerlib/uis/manager.ui.h:16
+msgid "Display weather option in main menu"
+msgstr "Näytä sääasetus päävalikossa"
+
+#: ../entertainerlib/uis/manager.ui.h:17
+msgid "Download album cover art"
+msgstr "Lataa levyn kansikuva"
+
+#: ../entertainerlib/uis/manager.ui.h:18
+msgid "Download movie and TV-series metadata"
+msgstr "Lataa elokuvien ja TV-sarjojen metatiedot"
+
+#: ../entertainerlib/uis/manager.ui.h:19
+msgid "Download song lyrics"
+msgstr "Lataa kappaleen sanat"
+
+#: ../entertainerlib/uis/manager.ui.h:20
+msgid "Entertainer Manager"
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:21
+msgid "Entertainer will catalog the media in the folders below."
+msgstr "Entertainer luetteloi mediatiedostot alla olevista kansioista."
+
+#: ../entertainerlib/uis/manager.ui.h:22
+msgid "General"
+msgstr "Yleiset"
+
+#: ../entertainerlib/uis/manager.ui.h:23
+msgid "Get weather conditions from the locations listed below."
+msgstr "Hae säätiedot alla luetelluista sijainnesta."
+
+#: ../entertainerlib/uis/manager.ui.h:24
+msgid "Media"
+msgstr "Media"
+
+#: ../entertainerlib/uis/manager.ui.h:26
+msgid "Rebuild media cache"
+msgstr "Rakenna uudelleen mediavälimuisti"
+
+#: ../entertainerlib/uis/manager.ui.h:27
+msgid "Screen change effect: "
+msgstr ""
+
+#: ../entertainerlib/uis/manager.ui.h:28
+msgid "Show user interface effects"
+msgstr "Näytä käyttöliittymän tehosteet"
+
+#: ../entertainerlib/uis/manager.ui.h:30
+msgid "Slideshow step (in seconds)"
+msgstr "Diaesityksen nopeus (sekunneissa)"
+
+#: ../entertainerlib/uis/manager.ui.h:31
+msgid "Start in fullscreen"
+msgstr "Käynnistä kokoruututilassa"
+
+#: ../entertainerlib/uis/manager.ui.h:32
+msgid "Start server automatically"
+msgstr "Käynnistä palvelin automaattisesti"
+
+#: ../entertainerlib/uis/manager.ui.h:33
+msgid "User Interface"
+msgstr "Käyttöliittymä"
+
+#: ../entertainerlib/uis/manager.ui.h:34
+#: ../entertainerlib/gui/screens/weather.py:19
+#: ../entertainerlib/gui/screens/main.py:71
+msgid "Weather"
+msgstr "Sää"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:1
+msgid "<b>Display items</b>"
+msgstr "<b>Näytä elementit</b>"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:2
+msgid "Critical"
+msgstr "Kriittinen"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:3
+msgid "Debug"
+msgstr "Virheenjäljitys"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:4
+msgid "Error"
+msgstr "Virhe"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:5
+#: ../entertainerlib/gui/screens/photo.py:40
+msgid "Information"
+msgstr "Tietoja"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:7
+msgid "Warning"
+msgstr "Varoitus"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:8
+msgid "gtk-close"
+msgstr "gtk-close"
+
+#: ../entertainerlib/uis/log_dialog.ui.h:9
+msgid "gtk-refresh"
+msgstr "gtk-refresh"
+
+#: ../entertainerlib/client/medialibrary/music.py:140
+msgid "Various"
+msgstr "Useita"
+
+#: ../entertainerlib/client/medialibrary/music.py:265
+msgid "Unknown artist"
+msgstr "Tuntematon esittäjä"
+
+#: ../entertainerlib/client/medialibrary/music.py:267
+msgid "Unknown title"
+msgstr "Tuntematon nimi"
+
+#: ../entertainerlib/client/medialibrary/music.py:292
+#, python-format
+msgid "Unknown track %(num)s."
+msgstr "Tuntematon kappale %(num)s."
+
+#: ../entertainerlib/gui/system_tray_icon.py:30
+msgid "Entertainer Server"
+msgstr "Entertainer-palvelin"
+
+#: ../entertainerlib/gui/user_interface.py:201
+msgid "Are you sure you want to exit Entertainer?"
+msgstr "Lopetetaanko Entertainer?"
+
+#: ../entertainerlib/gui/user_interface.py:202
+msgid "Yes"
+msgstr "Kyllä"
+
+#: ../entertainerlib/gui/user_interface.py:202
+msgid "No"
+msgstr "Ei"
+
+#: ../entertainerlib/gui/screens/video.py:19
+#: ../entertainerlib/gui/screens/main.py:66
+msgid "Videos"
+msgstr "Videot"
+
+#: ../entertainerlib/gui/screens/tv_episodes.py:50
+#, python-format
+msgid "%(num)d. %(title)s"
+msgstr "%(num)d. %(title)s"
+
+#: ../entertainerlib/gui/screens/movie.py:27
+msgid "Movie"
+msgstr "Elokuva"
+
+#: ../entertainerlib/gui/screens/movie.py:63
+#, python-format
+msgid "Released in %(year)s"
+msgstr "Julkaistu %(year)s"
+
+#: ../entertainerlib/gui/screens/movie.py:72
+#: ../entertainerlib/gui/screens/movie.py:122
+#: ../entertainerlib/gui/screens/movie.py:135
+#: ../entertainerlib/gui/screens/movie.py:148
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: ../entertainerlib/gui/screens/movie.py:77
+#, python-format
+msgid "%(runtime)s min, %(genre)s"
+msgstr "%(runtime)s min, %(genre)s"
+
+#: ../entertainerlib/gui/screens/movie.py:118
+msgid "Starring"
+msgstr "Pääosissa"
+
+#: ../entertainerlib/gui/screens/movie.py:131
+msgid "Directed by"
+msgstr "Ohjannut:"
+
+#: ../entertainerlib/gui/screens/movie.py:144
+msgid "Written by"
+msgstr "Kirjoittanut:"
+
+#: ../entertainerlib/gui/screens/movie.py:161
+msgid "Watch"
+msgstr "Katso"
+
+#: ../entertainerlib/gui/screens/tv_series.py:49
+#, python-format
+msgid "Season %(num)s"
+msgstr "Kausi %(num)s"
+
+#: ../entertainerlib/gui/screens/weather.py:48
+#, python-format
+msgid ""
+"High: %(high)s   Low: %(low)s\n"
+"Condition: %(cond)s"
+msgstr ""
+"Korkein: %(high)s   Alhaisin: %(low)s\n"
+"Tila: %(cond)s"
+
+#: ../entertainerlib/gui/screens/main.py:65
+msgid "Play CD"
+msgstr "Toista CD"
+
+#: ../entertainerlib/gui/screens/main.py:67
+#: ../entertainerlib/gui/screens/music.py:25
+msgid "Music"
+msgstr "Musiikki"
+
+#: ../entertainerlib/gui/screens/main.py:68
+#: ../entertainerlib/gui/screens/photo_albums.py:27
+msgid "Photographs"
+msgstr "Valokuvat"
+
+#: ../entertainerlib/gui/screens/main.py:74
+#: ../entertainerlib/gui/screens/main.py:175
+msgid "Playing now..."
+msgstr "Toistetaan..."
+
+#: ../entertainerlib/gui/screens/main.py:140
+#, python-format
+msgid "Now Playing: %(title)s (%(pos)s/%(length)s)"
+msgstr "Toistetaan: %(title)s (%(pos)s/%(length)s)"
+
+#: ../entertainerlib/gui/screens/question.py:23
+msgid "Question"
+msgstr "Kysymys"
+
+#: ../entertainerlib/gui/screens/music.py:51
+msgid "No music available!"
+msgstr "Musiikkia ei ole saatavilla!"
+
+#: ../entertainerlib/gui/screens/music.py:56
+msgid ""
+"There are no indexed artists in the Entertainer media library. To add music, "
+"start the Content management tool and open the 'Music' tab. Now click on the "
+"'Add' button and select some folders which contain music files."
+msgstr ""
+
+#: ../entertainerlib/gui/screens/album.py:77
+#: ../entertainerlib/gui/screens/disc.py:168
+#, python-format
+msgid "%(total)s tracks, %(time)s minutes"
+msgstr "%(total)s kappaletta, %(time)s minuuttia"
+
+#: ../entertainerlib/gui/screens/photo_albums.py:69
+msgid "No photographs available!"
+msgstr "Ei valokuvia"
+
+#: ../entertainerlib/gui/screens/photo_albums.py:74
+msgid ""
+"There are no indexed photographs in the Entertainer media library. To add "
+"photographs, start the Content management tool and open the 'Images' tab. "
+"Now click on the 'Add' button and select some folders which contain image "
+"files."
+msgstr ""
+
+#: ../entertainerlib/gui/screens/disc.py:42
+msgid "Audio Disc"
+msgstr "Äänilevy"
+
+#: ../entertainerlib/gui/screens/disc.py:89
+msgid "No audio disc in drive"
+msgstr "Asemassa ei ole äänilevyä"
+
+#: ../entertainerlib/gui/tabs/video_clips_tab.py:23
+msgid "Video clips"
+msgstr "Videoleikkeet"
+
+#: ../entertainerlib/gui/tabs/video_clips_tab.py:66
+msgid ""
+"There are no indexed Video Clips in the Entertainer media library. Please "
+"add some folders containing video clips to the Library using the "
+"configuration tool."
+msgstr ""
+"Videoleikkeitä ei ole indeksoituna Entertainerin mediakirjastossa. Lisää "
+"kirjastoon kansioita, jotka sisältävät videoleikkeitä käyttäen "
+"asetustyökalua."
+
+#: ../entertainerlib/gui/tabs/video_clips_tab.py:69
+msgid "No video clips available!"
+msgstr "Videoleikkeitä ei ole käytettävissä!"
+
+#: ../entertainerlib/gui/tabs/tab.py:110
+msgid "Empty tab"
+msgstr "Tyhjä välilehti"
+
+#: ../entertainerlib/gui/tabs/tab.py:111
+msgid "This tab doesn't contain any elements."
+msgstr "Tämä välilehti ei sisällä yhtäkään elementtiä."
+
+#: ../entertainerlib/gui/tabs/series_tab.py:21
+msgid "TV-Series"
+msgstr "TV-sarjat"
+
+#: ../entertainerlib/gui/tabs/series_tab.py:64
+msgid ""
+"There are no indexed TV-series in Entertainer media library. To add TV-"
+"series, click on 'content' button on toolbar and open 'videos' tab. Now "
+"click on 'add' button and select some folders which contains video files."
+msgstr ""
+"TV-sarjoja ei ole indeksoituna Entertainerin mediakirjastossa. Lisätäksesi "
+"TV-sarjoja, napsauta \"sisältö\"-painiketta työkalupalkissa ja avaa "
+"\"videot\"-välilehti. Nyt napsauta \"lisää\"-painiketta ja valitse "
+"kansioita, jotka sisältävät videotiedostoja."
+
+#: ../entertainerlib/gui/tabs/series_tab.py:68
+msgid "No TV-series available!"
+msgstr "TV-sarjoja ei ole käytettävissä!"
+
+#: ../entertainerlib/gui/tabs/series_tab.py:109
+#, python-format
+msgid ""
+"%(season)d Seasons\n"
+"%(episode)d Episodes"
+msgstr ""
+"%(season)d kautta\n"
+"%(episode)d jaksoa"
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:14
+msgid "Currently playing"
+msgstr "Nykyinen kappale"
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:23
+#, python-format
+msgid "From %(number)d. %(title)s"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:33
+#, python-format
+msgid "From %(title)s"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:35
+#: ../entertainerlib/gui/tabs/playing_tab.py:67
+#, python-format
+msgid "From %(title)s, %(year)s"
+msgstr "%(title)s, %(year)s"
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:44
+#: ../entertainerlib/gui/tabs/playing_tab.py:72
+#, python-format
+msgid "By %(artist)s"
+msgstr ""
+
+#: ../entertainerlib/gui/tabs/playing_tab.py:70
+#, python-format
+msgid "From %(album)s"
+msgstr "Levyltä %(album)s"
+
+#: ../entertainerlib/gui/tabs/albums_tab.py:17
+msgid "Albums"
+msgstr "Levyt"
+
+#: ../entertainerlib/gui/tabs/albums_tab.py:88
+#, python-format
+msgid "%(total)s tracks"
+msgstr "%(total)s kappaletta"
+
+#: ../entertainerlib/gui/tabs/artists_tab.py:17
+msgid "Artists"
+msgstr "Esittäjät"
+
+#: ../entertainerlib/gui/tabs/artists_tab.py:73
+#, python-format
+msgid "%(albums)d albums"
+msgstr "%(albums)d levyä"
+
+#: ../entertainerlib/gui/tabs/artists_tab.py:75
+#, python-format
+msgid "%(tracks)d tracks"
+msgstr "%(tracks)d kappaletta"
+
+#: ../entertainerlib/gui/tabs/lyrics_tab.py:17
+msgid "Lyrics"
+msgstr "Sanoitukset"
+
+#: ../entertainerlib/gui/tabs/lyrics_tab.py:52
+msgid "No lyrics found for this track"
+msgstr "Sanoituksia ei löytynyt tälle kappaleelle"
+
+#: ../entertainerlib/gui/tabs/tracks_tab.py:16
+msgid "Tracks"
+msgstr "Kappaleita"
+
+#: ../entertainerlib/gui/tabs/tracks_tab.py:74
+#, python-format
+msgid "Track %(track)d from %(album)s"
+msgstr "Kappale %(track)d levyltä %(album)s"
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:21
+msgid "Movies"
+msgstr "Elokuvat"
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:65
+msgid ""
+"There are no indexed movies in Entertainer media library.  To add movies, "
+"click on 'content' button on toolbar and open 'videos' tab. Now click on "
+"'add' button and select some folders which contains movie files."
+msgstr ""
+"Elokuvia ei ole indeksoituna Entertainerin mediakirjastossa. Lisätäksesi "
+"elokuvia, napsauta \"sisältö\"-painiketta työkalupalkissa ja avaa \"videot\"-"
+"välilehti. Nyt napsauta \"lisää\"-painiketta ja valitse kansioita, jotka "
+"sisältävät elokuvatiedostoja."
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:69
+msgid "No movies available!"
+msgstr "Elokuvia ei ole käytettävissä!"
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:123
+#, python-format
+msgid "%(title)s (%(year)s)"
+msgstr "%(title)s (%(year)s)"
+
+#: ../entertainerlib/gui/tabs/movies_tab.py:125
+#, python-format
+msgid "%(min)d min, (%(genre)s)"
+msgstr "%(min)d min, (%(genre)s)"

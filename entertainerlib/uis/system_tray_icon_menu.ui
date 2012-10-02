@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--*- mode: xml -*-->
+<interface>
+  <object class="GtkUIManager" id="uimanager1">
+    <child>
+      <object class="GtkActionGroup" id="actiongroup1">
+        <child>
+          <object class="GtkAction" id="menuitem_client">
+            <property name="name">menuitem_client</property>
+            <property name="label" translatable="yes">Open media center GUI</property>
+            <signal handler="on_menuitem_client_activate" name="activate"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkAction" id="menuitem_manager">
+            <property name="name">menuitem_manager</property>
+            <property name="tooltip" translatable="yes">Open manager dialog</property>
+            <property name="label" translatable="yes">Manager</property>
+            <signal handler="on_menuitem_manager_activate" last_modification_time="Sun, 23 Aug 2009 00:46:37 GMT" name="activate"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkAction" id="menuitem_log_viewer">
+            <property name="stock_id">gtk-find</property>
+            <property name="name">menuitem_log_viewer</property>
+            <property name="tooltip" translatable="yes">Open log viewer dialog</property>
+            <property name="label" translatable="yes">Log viewer</property>
+            <signal handler="on_menuitem_log_viewer_activate" name="activate"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkAction" id="menuitem_quit">
+            <property name="stock_id">gtk-quit</property>
+            <property name="name">menuitem_quit</property>
+            <signal handler="on_menuitem_quit_activate" name="activate"/>
+          </object>
+        </child>
+      </object>
+    </child>
+    <ui>
+      <popup name="SystemTrayIconMenu">
+        <menuitem action="menuitem_client"/>
+        <menuitem action="menuitem_manager"/>
+        <menuitem action="menuitem_log_viewer"/>
+        <menuitem action="menuitem_quit"/>
+      </popup>
+    </ui>
+  </object>
+  <object class="GtkMenu" constructor="uimanager1" id="SystemTrayIconMenu">
+    <property name="visible">True</property>
+    <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+  </object>
+</interface>

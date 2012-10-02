@@ -1,0 +1,61 @@
+#!/usr/bin/env python
+# Copyright (c) 2009 Entertainer Developers - See COPYING - GPLv2
+'''Main backend executable'''
+
+import ctypes
+import os
+import sys
+
+from entertainerlib.backend.backend_server import BackendServer
+
+def daemonize(stdin='/dev/null', stdout='/dev/null', stderr='/dev/null'):
+    '''Fork the backend server process'''
+    try:
+        pid = os.fork()
+        if pid  > 0:
+            sys.exit(0) # Exit first parent
+    except OSError, e:
+        sys.stderr.write("First fork failed: (%d) %s\n" %
+            (e.errno, e.strerror))
+        sys.exit(1)
+    # Decouple from parent environment
+    os.chdir("/")
+    os.umask(0)
+    os.setsid()
+    # Perform the second fork
+    try:
+        pid = os.fork()
+        if pid  > 0:
+            sys.exit(0) # Exit second parent
+    except OSError, e:
+        sys.stderr.write("Second fork failed: (%d) %s\n" %
+            (e.errno, e.strerror))
+        sys.exit(1)
+
+    for f in sys.stdout, sys.stderr:
+        f.flush()
+
+    si = file(stdin, 'r')
+    so = file(stdout, 'a+')
+    se = file(stderr, 'a+')
+    os.dup2(si.fileno(), sys.stdin.fileno())
+    os.dup2(so.fileno(), sys.stdout.fileno())
+    os.dup2(se.fileno(), sys.stderr.fileno())
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and (sys.argv[1] == "--help" or sys.argv[1] == "-h"):
+        print 'Entertainer backend usage:'
+        print "    --help               - This help listing"
+        print "    --foreground         - Run backend as foreground process"
+        sys.exit(0)
+
+    if len(sys.argv) > 1 and sys.argv[1] == "--foreground":
+        backend = BackendServer()
+    else:
+        print "Entertainer backend starting..."
+        libc = ctypes.CDLL('libc.so.6')
+        libc.prctl(15, 'EntertainerBackend', 0, 0, 0)
+        daemonize()
+        backend = BackendServer()
+

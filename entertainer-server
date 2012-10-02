@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+'''Server executable'''
+
+from entertainerlib.network import server_main
+
+server_main()
+

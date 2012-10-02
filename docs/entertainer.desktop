@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Entertainer
+Comment=Media Center for GNOME/Xfce desktop
+Exec=entertainer
+Icon=entertainer
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;AudioVideo;
+
